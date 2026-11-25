@@ -1,0 +1,338 @@
+# 4. PROJETO DO DESIGN DE INTERAÇÃO
+
+## 4.1 Personas
+Nesta seção você deve detalhar as personas do seu projeto. Deve-se documentar uma persona por integrante do projeto. Para mais informações sobre personas consulte: https://www.rdstation.com/blog/marketing/persona-o-que-e/. Sugere-se a utilização de um template do Canva: https://www.canva.com/pt_br/modelos/s/persona/
+
+![image](https://github.com/user-attachments/assets/3b03a6a2-c56e-47fa-8c52-4cacc282a043)
+
+![image](./assets/img/Persona-Joao.png)
+
+![image](./assets/img/Persona-Rafael.jpg)
+
+![image](./assets/img/Persona-Lucas.jpg)
+
+![image](./assets/img/Persona_Marina.png)
+
+
+
+## 4.2 Mapa de Empatia
+Mapa da Empatia é um material utilizado para conhecer melhor o seu cliente. A partir do mapa da empatia é possível detalhar a personalidade do cliente e compreendê-la melhor. O objetivo é obter um nível mais profundo de compreensão de uma persona. A seguir um exemplo de template que pode ser usado para o mapa de empatia. Para cada persona deverá ser apresentado o seu respectivo mapa de empatia. Sugere-se a utilização do template apresentado em https://www.rdstation.com/blog/marketing/mapa-da-empatia/.
+
+![image](https://github.com/user-attachments/assets/918572ed-35ee-48e2-9de8-7d1b42dfd770)
+
+![image](./assets/img/MapaEmpatia-Joao.png)
+
+![image](./assets/img/MapaEmpatia-Rafael.jpg)
+
+![image](./assets/img/MapaEmpatia-Lucas.jpg)
+
+![image](./assets/img/Mapa_Empatia_Marina.png)
+
+## 4.3 Protótipos das Interfaces
+Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A fidelidade do protótipo refere-se ao nível de detalhes e funcionalidades incorporadas a ele. Assim, um protótipo de alta fidelidade é uma representação interativa do produto, baseada no computador ou em dispositivos móveis. Esse protótipo já apresenta maior semelhança com o design final em termos de detalhes e funcionalidades. No desenvolvimento dos protótipos, devem ser considerados os princípios gestálticos, as recomendações ergonômicas e as regras de design (como as 8 regras de ouro). É importante descrever no texto do relatório como os princípios gestálticos e as regras de ouro foram seguidas no projeto das interfaces. Nesta etapa deve-se dar uma ênfase na implementação do software de modo que possam ser realizados os testes com usuários na etapa seguinte.
+
+### Tela de Login – Tio Patinhas
+
+![Tela de Login - Tio Patinhas](/docs/assets/img/Telas/01-Login.png)
+
+### Objetivo da Tela  
+Permitir que o usuário acesse sua conta no sistema de controle financeiro por meio da inserção de suas credenciais (e-mail e chave mestra). A tela funciona como ponto de entrada seguro, garantindo que apenas usuários autenticados tenham acesso às funcionalidades do sistema.
+
+### Princípios Gestálticos
+
+- **Proximidade:** Os campos de entrada (e-mail e chave mestra) e o botão de ação estão agrupados em uma única área central, indicando claramente que fazem parte do mesmo fluxo de interação.
+
+- **Semelhança:** Os campos de entrada compartilham o mesmo estilo visual (cores, bordas arredondadas e tipografia), reforçando a consistência e facilitando o reconhecimento dos elementos interativos.
+
+- **Continuidade:** A organização vertical dos elementos conduz naturalmente o olhar do usuário do topo (identidade visual) até o botão principal de ação, favorecendo a navegação intuitiva.
+
+- **Figura-fundo:** O contraste entre o fundo escuro do formulário e o fundo claro da página destaca a área de interação principal, direcionando a atenção do usuário.
+
+- **Fechamento:** O contorno do card central cria uma unidade visual bem definida, permitindo que o usuário perceba o formulário como um bloco coeso e organizado.
+
+### Regras de Ouro
+
+- **Consistência:** A interface mantém padronização visual entre campos, botões e tipografia, criando uma experiência previsível e familiar.
+
+- **Feedback:** O botão “Destravar Cofre” apresenta destaque visual (cor contrastante), indicando claramente sua função como ação principal.
+
+- **Prevenção de erros:** O uso de campo específico para senha (chave mestra) com ocultação de caracteres contribui para a segurança e evita exposição acidental de dados sensíveis.
+
+- **Reconhecimento em vez de memorização:** O uso de rótulos claros (“E-mail” e “Chave Mestra”) reduz a necessidade de o usuário lembrar informações adicionais.
+
+- **Controle do usuário:** A presença de uma opção para novos usuários (“Forje seu cofre”) oferece liberdade de navegação e acesso a cadastro.
+
+### Recomendações Ergonômicas
+
+- **Clareza visual:** O alto contraste entre texto, campos e fundo melhora a legibilidade, especialmente em ambientes com diferentes condições de iluminação.
+
+- **Hierarquia da informação:** A identidade visual no topo, seguida pelos campos e pelo botão de ação, estabelece uma hierarquia clara de uso.
+
+- **Redução da carga cognitiva:** A interface apresenta apenas os elementos essenciais para login, evitando distrações e simplificando a tarefa.
+
+- **Acessibilidade:** O tamanho dos campos e do botão facilita a interação, inclusive em dispositivos móveis.
+
+- **Compatibilidade com o usuário:** A linguagem utilizada (“Destravar cofre” e “Chave mestra”) reforça a metáfora do sistema financeiro, tornando a experiência mais intuitiva e alinhada ao contexto do produto.
+
+### Tela de Cadastro – Tio Patinhas
+
+![Tela de Cadastro - Tio Patinhas](/docs/assets/img/Telas/02-Cadastro.png)
+
+### Objetivo da Tela  
+Permitir que novos usuários realizem o cadastro no sistema de controle financeiro por meio da inserção de seus dados (nome completo, e-mail e chave mestra), a tela funciona como porta de entrada para novos usuários, garantindo um processo simples, seguro e orientado.
+
+### Princípios Gestálticos
+
+- **Proximidade:** Os campos de entrada (nome completo, e-mail e chave mestra) e o botão de ação estão agrupados em uma única área central, indicando claramente que fazem parte do mesmo fluxo de cadastro.
+
+- **Semelhança:** Os campos de entrada compartilham o mesmo estilo visual (cores, bordas arredondadas e tipografia), reforçando a consistência e facilitando o reconhecimento dos elementos interativos.
+
+- **Continuidade:** A organização vertical dos elementos conduz naturalmente o olhar do usuário do topo (título e identidade visual) até o botão principal de ação, favorecendo a navegação intuitiva.
+
+- **Figura-fundo:** O contraste entre o fundo escuro do formulário e o fundo claro da página destaca a área de interação principal, direcionando a atenção do usuário.
+
+- **Fechamento:** O contorno do card central cria uma unidade visual bem definida, permitindo que o usuário perceba o formulário como um bloco coeso e organizado.
+
+### Regras de Ouro
+
+- **Consistência:** A interface mantém padronização visual entre campos, botões e tipografia, criando uma experiência previsível e familiar, alinhada à tela de login.
+
+- **Feedback:** O botão “Criar Meu Cofre” apresenta destaque visual (cor contrastante), indicando claramente sua função como ação principal.
+
+- **Prevenção de erros:** O uso de campo específico para senha (chave mestra) com ocultação de caracteres contribui para a segurança e evita exposição acidental de dados sensíveis.
+
+- **Reconhecimento em vez de memorização:** O uso de rótulos claros (“Nome Completo”, “E-mail” e “Chave Mestra”) reduz a necessidade de o usuário lembrar informações adicionais.
+
+- **Controle do usuário:** A presença de uma opção para usuários já cadastrados (“Acesse aqui”) oferece liberdade de navegação e retorno à tela de login.
+
+### Recomendações Ergonômicas
+
+- **Clareza visual:** O alto contraste entre texto, campos e fundo melhora a legibilidade, especialmente em ambientes com diferentes condições de iluminação.
+
+- **Hierarquia da informação:** O título e subtítulo no topo, seguidos pelos campos e pelo botão de ação, estabelecem uma hierarquia clara de uso.
+
+- **Redução da carga cognitiva:** A interface apresenta apenas os elementos essenciais para cadastro, evitando distrações e simplificando a tarefa.
+
+- **Acessibilidade:** O tamanho dos campos e do botão facilita a interação, inclusive em dispositivos móveis.
+
+- **Compatibilidade com o usuário:** A linguagem utilizada (“Criar cofre” e “Chave mestra”) reforça a metáfora do sistema financeiro, tornando a experiência mais intuitiva e alinhada ao contexto do produto.
+
+### Tela do Painel de Controle
+
+![Tela do Painel de Controle](/docs/assets/img/Telas/03-Painel.png)
+
+### Objetivo da Tela  
+Apresentar ao usuário uma visão geral do seu patrimônio financeiro, reunindo informações consolidadas como saldo total, receitas, despesas, investimentos e evolução ao longo do tempo. A tela funciona como painel principal do sistema, permitindo monitoramento rápido e apoio à tomada de decisões.
+
+### Princípios Gestálticos
+
+- **Proximidade:** Os indicadores financeiros estão organizados em blocos (cards) agrupados por contexto, facilitando a compreensão das informações relacionadas.
+
+- **Semelhança:** Os cards seguem um padrão visual consistente (cores, tipografia e estrutura), reforçando a unidade e facilitando a leitura dos dados.
+
+- **Continuidade:** A disposição dos elementos conduz o olhar da esquerda para a direita e de cima para baixo (menu lateral → resumo → gráficos → metas), criando um fluxo natural de navegação.
+
+- **Figura-fundo:** O contraste entre o fundo claro da interface e os cards destacados direciona a atenção do usuário para as informações principais.
+
+- **Fechamento:** Cada seção (resumo, gráfico, categorias e metas) é delimitada visualmente em containers, permitindo que o usuário perceba claramente os blocos de informação.
+
+### Regras de Ouro
+
+- **Consistência:** A interface mantém padronização visual entre cards, botões, gráficos e menu lateral, criando uma experiência uniforme em todo o sistema.
+
+- **Feedback:** Elementos interativos como o botão “+ Nova Transação” possuem destaque visual, indicando claramente sua função e incentivando a ação.
+
+- **Prevenção de erros:** A organização clara das informações evita interpretações equivocadas, reduzindo o risco de decisões baseadas em dados confusos.
+
+- **Reconhecimento em vez de memorização:** Informações importantes são exibidas diretamente na tela (saldo, receitas, despesas, categorias), eliminando a necessidade de o usuário lembrar dados.
+
+- **Controle do usuário:** O menu lateral permite acesso rápido às principais funcionalidades (Dashboard, Transações, Investimentos, Metas), garantindo liberdade de navegação.
+
+### Recomendações Ergonômicas
+
+- **Clareza visual / Legibilidade:** O uso de cores contrastantes, tipografia adequada e espaçamento entre elementos facilita a leitura e interpretação rápida das informações.
+
+- **Hierarquia da informação:** Os dados mais importantes (saldo total e indicadores principais) estão em destaque no topo, seguidos por gráficos e informações complementares.
+
+- **Minimização da carga de trabalho do usuário:** As informações são apresentadas de forma resumida e organizada, permitindo que o usuário compreenda sua situação financeira sem esforço excessivo.
+
+- **Redução da carga cognitiva:** A divisão das informações em cards e gráficos evita sobrecarga visual e facilita o processamento das informações.
+
+- **Acessibilidade:** Elementos bem espaçados, botões visíveis e gráficos claros facilitam a interação em diferentes dispositivos.
+
+- **Compatibilidade com o usuário:** A linguagem utilizada (“Patrimônio”, “Receitas”, “Despesas”, “Metas”) está alinhada ao contexto financeiro, tornando a interface intuitiva e de fácil entendimento.
+
+### Tela de Transações
+
+![Tela de Transacoes](/docs/assets/img/Telas/04-Transacoes.png)
+
+### Objetivo da Tela  
+Permitir que o usuário registre, visualize e gerencie suas transações financeiras (entradas e saídas), oferecendo uma visão clara do histórico financeiro e facilitando o controle do fluxo de dinheiro.
+
+### Princípios Gestálticos
+
+- **Proximidade:** Os campos do formulário (tipo, data, categoria, valor e descrição) estão agrupados em um único card, indicando que fazem parte da mesma ação de cadastro. Já a tabela abaixo está separada, representando outro contexto: visualização.
+
+- **Semelhança:** Os inputs seguem o mesmo padrão visual (bordas, cores e tipografia), assim como os itens da tabela, reforçando consistência e facilitando o reconhecimento de padrões.
+
+- **Continuidade:** A leitura segue um fluxo natural de cima para baixo: primeiro o cadastro da transação e depois o histórico, guiando o usuário sem esforço.
+
+- **Figura-fundo:** O contraste entre o card claro (formulário) e o fundo da página destaca a área principal de interação. Os valores positivos (verde) e negativos (vermelho/azulado) também reforçam a distinção visual.
+
+- **Fechamento:** O uso de cards com bordas suaves delimita claramente as seções (formulário e lista), permitindo que o usuário entenda cada bloco como uma unidade funcional.
+
+### Regras de Ouro
+
+- **Consistência:** A interface mantém o mesmo padrão visual do restante do sistema (cores, botões e tipografia), garantindo uma experiência uniforme.
+
+- **Feedback:** O botão “Adicionar Transação” possui destaque visual, deixando claro que é a ação principal. Além disso, os valores positivos e negativos possuem cores distintas, fornecendo feedback imediato.
+
+- **Prevenção de erros:** O uso de campos específicos (select para tipo e categoria, input de data e valor formatado) reduz a chance de entradas inválidas.
+
+- **Reconhecimento em vez de memorização:** As categorias e tipos pré-definidos evitam que o usuário precise lembrar ou digitar informações manualmente.
+
+- **Controle do usuário:** A presença da coluna “Ações” na tabela permite futuras interações como editar ou remover transações, dando mais autonomia ao usuário.
+
+### Recomendações Ergonômicas
+
+- **Clareza visual:** A separação entre formulário e lista, junto com o uso de cores para valores, facilita a leitura e interpretação rápida das informações.
+
+- **Hierarquia da informação:** O título da página, seguido do formulário e depois da tabela, estabelece uma ordem lógica de uso: cadastrar → visualizar.
+
+- **Redução da carga cognitiva:** O formulário é simples e direto, contendo apenas os campos essenciais para o registro da transação.
+
+- **Acessibilidade:** Os campos possuem tamanho adequado e boa legibilidade, facilitando a interação em diferentes dispositivos.
+
+- **Compatibilidade com o usuário:** Termos como “Entrada”, “Saída”, “Categoria” e “Valor” são familiares no contexto financeiro, tornando a interface intuitiva.
+
+### Tela de Investimentos
+
+![Tela de Investimentos](/docs/assets/img/Telas/05-Investimentos.png)
+
+### Objetivo da Tela  
+Permitir que o usuário acompanhe e gerencie seus investimentos, registrando aportes em diferentes ativos e visualizando a evolução do patrimônio com base nos valores atuais e históricos.
+
+### Princípios Gestálticos
+
+- **Proximidade:** O saldo em destaque, o formulário de novo aporte e a tabela de ativos estão organizados em blocos distintos, indicando funções diferentes: resumo, ação e visualização.
+
+- **Semelhança:** Os campos do formulário seguem o mesmo padrão visual, assim como os itens da tabela, garantindo consistência e facilitando o reconhecimento dos elementos.
+
+- **Continuidade:** A disposição vertical conduz o usuário do resumo do patrimônio (topo), para o registro de novos aportes e, por fim, para a lista de investimentos.
+
+- **Figura-fundo:** O card de saldo (com cor mais forte) se destaca do restante da interface, chamando atenção para a informação mais relevante. Já os valores positivos utilizam cores que reforçam ganho ou estabilidade.
+
+- **Fechamento:** Cada seção (saldo, formulário e tabela) está contida em cards bem definidos, permitindo que o usuário compreenda cada área como um bloco independente.
+
+### Regras de Ouro
+
+- **Consistência:** A interface mantém o mesmo padrão visual das demais telas (cores, tipografia e componentes), garantindo uma experiência uniforme.
+
+- **Feedback:** O saldo em Bitcoin e os valores totais dos ativos fornecem retorno imediato ao usuário sobre sua posição financeira. O botão “Adicionar” destaca a ação principal.
+
+- **Prevenção de erros:** O uso de campos estruturados (quantidade, preço, data) reduz inconsistências nos dados inseridos.
+
+- **Reconhecimento em vez de memorização:** O uso de exemplos como “EX: BTC” e a organização por colunas (ativo, quantidade, preço, etc.) facilita o entendimento sem exigir esforço do usuário.
+
+- **Controle do usuário:** A coluna “Ações” permite futuras interações como edição ou remoção de ativos, garantindo flexibilidade no gerenciamento.
+
+### Recomendações Ergonômicas
+
+- **Clareza visual:** A separação entre resumo, formulário e tabela facilita a leitura e o entendimento das informações.
+
+- **Hierarquia da informação:** O saldo total no topo, seguido do formulário e depois da listagem de ativos, orienta o fluxo natural de uso.
+
+- **Redução da carga cognitiva:** A interface apresenta apenas os dados essenciais para acompanhamento e registro de investimentos.
+
+- **Acessibilidade:** Os campos e botões possuem bom espaçamento e legibilidade, facilitando a interação em diferentes dispositivos.
+
+- **Compatibilidade com o usuário:** Termos como “Ativo”, “Quantidade”, “Preço Pago” e “Total Atual” são comuns no contexto de investimentos, tornando a interface intuitiva.
+
+### Tela de Metas
+
+![Tela de Metas](/docs/assets/img/Telas/06-Metas.png)
+
+### Objetivo da Tela  
+Permitir que o usuário defina, acompanhe e gerencie suas metas financeiras de curto e longo prazo, visualizando o progresso de cada objetivo e facilitando o planejamento financeiro.
+
+### Princípios Gestálticos
+
+- **Proximidade:** Os campos de criação de metas estão agrupados em um único formulário, enquanto as metas cadastradas são exibidas em cards separados por categoria (curto e longo prazo), indicando diferentes contextos.
+
+- **Semelhança:** Os cards de metas seguem o mesmo padrão visual (estrutura, tipografia e barras de progresso), facilitando o reconhecimento e comparação entre objetivos.
+
+- **Continuidade:** A organização da tela conduz o usuário do cadastro da meta (topo), para as metas de curto prazo e depois para as de longo prazo, criando um fluxo natural de leitura.
+
+- **Figura-fundo:** Os cards das metas se destacam do fundo da interface, enquanto a barra de progresso utiliza contraste para evidenciar o avanço em relação ao objetivo.
+
+- **Fechamento:** Cada meta é apresentada dentro de um card bem definido, permitindo que o usuário perceba cada objetivo como uma unidade independente.
+
+### Regras de Ouro
+
+- **Consistência:** A interface mantém o padrão visual das demais telas do sistema, garantindo uma experiência uniforme e previsível.
+
+- **Feedback:** A barra de progresso e os percentuais fornecem retorno imediato sobre o avanço da meta. O botão “Adicionar Meta” destaca claramente a ação principal.
+
+- **Prevenção de erros:** O uso de campos estruturados (valores numéricos, datas e seleção de tipo) reduz inconsistências no cadastro das metas.
+
+- **Reconhecimento em vez de memorização:** Rótulos claros como “Valor Atual”, “Valor Alvo” e “Prazo” ajudam o usuário a entender rapidamente as informações necessárias.
+
+- **Controle do usuário:** A presença de ações como editar e excluir metas permite que o usuário tenha total controle sobre seus objetivos.
+
+### Recomendações Ergonômicas
+
+- **Clareza visual:** A separação entre formulário e listagem de metas, além da divisão por categorias (curto e longo prazo), facilita a leitura e organização das informações.
+
+- **Hierarquia da informação:** O fluxo começa com a criação da meta, seguido pela visualização das metas em andamento, priorizando as de curto prazo.
+
+- **Redução da carga cognitiva:** A interface apresenta apenas os dados essenciais para acompanhamento das metas, evitando excesso de informações.
+
+- **Acessibilidade:** O uso de barras de progresso, espaçamento adequado e tipografia legível melhora a usabilidade em diferentes dispositivos.
+
+- **Compatibilidade com o usuário:** Termos como “Meta”, “Prazo”, “Valor Atual” e “Valor Alvo” são familiares no contexto financeiro, tornando a interface intuitiva.
+
+### Tela de Perfil e Segurança
+
+![Tela de Perfil e Segurança](/docs/assets/img/Telas/07-Perfil.png)
+
+### Objetivo da Tela  
+Permitir que o usuário gerencie as informações pessoais da conta e as credenciais de segurança do sistema de controle financeiro. A tela funciona como um espaço seguro para atualização de dados cadastrais, como nome de exibição e e-mail, além da alteração da chave mestra, garantindo maior controle e proteção sobre o acesso à plataforma.
+
+
+### Princípios Gestálticos
+
+- **Proximidade:** Os elementos estão organizados em grupos funcionais distintos, como a seção de informações gerais e a seção de alteração da chave mestra, indicando claramente quais campos pertencem a cada ação.
+
+- **Semelhança:** Os campos de entrada compartilham o mesmo estilo visual, com bordas arredondadas, tipografia consistente e cores padronizadas, reforçando a identidade visual e facilitando o reconhecimento dos elementos interativos.
+
+- **Continuidade:** A organização vertical dos componentes conduz o olhar do usuário do topo da página, com o título e identificação do perfil, até os formulários e botões de ação, favorecendo uma navegação intuitiva.
+
+- **Figura-fundo:** O contraste entre o fundo claro da área principal, os cards brancos e a barra lateral escura destaca os blocos de interação e facilita a identificação das áreas mais importantes da tela.
+
+- **Fechamento:** O uso de cards com contornos bem definidos cria unidades visuais organizadas, permitindo que o usuário perceba cada seção da interface como um bloco coeso e funcional.
+
+
+### Regras de Ouro
+
+- **Consistência:** A interface mantém padronização visual entre campos, botões, ícones, espaçamentos e tipografia, criando uma experiência previsível e alinhada com a identidade do sistema.
+
+- **Feedback:** Os botões “Salvar Alterações” e “Atualizar Segurança” apresentam destaque visual por meio de cores contrastantes e ícones, indicando claramente suas funções como ações principais da tela.
+
+- **Prevenção de erros:** A separação entre edição de informações gerais e alteração da chave mestra reduz a chance de erros operacionais. Além disso, a confirmação da nova chave contribui para evitar falhas de digitação e reforça a segurança.
+
+- **Reconhecimento em vez de memorização:** O uso de rótulos claros, como “Nome de Exibição”, “E-mail (Recuperação e Login)”, “Chave Mestra Atual” e “Confirmar Nova Chave”, facilita o entendimento imediato e reduz a necessidade de memorização.
+
+- **Controle do usuário:** A tela oferece autonomia para que o usuário escolha atualizar apenas os dados que desejar, além de manter a navegação lateral disponível para acesso livre às demais funcionalidades do sistema.
+
+
+### Recomendações Ergonômicas
+
+- **Clareza visual:** O contraste entre textos, campos, botões e fundo melhora a legibilidade e facilita a identificação rápida das informações e ações disponíveis.
+
+- **Hierarquia da informação:** O título principal, seguido da identificação do usuário e depois das seções de edição e segurança, estabelece uma hierarquia visual clara e favorece o entendimento da tela.
+
+- **Redução da carga cognitiva:** A divisão do conteúdo em blocos funcionais reduz a complexidade percebida da interface, permitindo que o usuário foque em uma tarefa por vez.
+
+- **Acessibilidade:** O tamanho dos campos, o espaçamento entre elementos e a dimensão dos botões favorecem a interação em diferentes dispositivos, inclusive em telas menores.
+
+- **Compatibilidade com o usuário:** A linguagem utilizada, como “Caixa-Forte”, “Chave Mestra” e “Mestre da Caixa-Forte”, reforça a metáfora do sistema financeiro e torna a experiência mais intuitiva e coerente com o contexto do produto.
